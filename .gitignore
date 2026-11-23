@@ -1,0 +1,10 @@
+# Local data and configuration
+*.db
+*.db-shm
+*.db-wal
+.env
+.env.*
+!.env.example
+
+# Local fixture generator for the separate atendimentos database
+/seed_fake_data.py
